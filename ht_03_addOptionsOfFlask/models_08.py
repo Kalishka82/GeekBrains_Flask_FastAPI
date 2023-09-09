@@ -19,3 +19,4 @@ class User(db.Model):
 
     def __repr__(self):
         return f'{self.firstname} {self.lastname} {self.email}'
+
